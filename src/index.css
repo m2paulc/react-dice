@@ -1,0 +1,9 @@
+body {
+  min-height: 100%;
+  background-color: #505050;
+  color: aliceblue;
+}
+
+main {
+  height: 100%;
+}
