@@ -10,14 +10,14 @@ Let’s build an app that lets us roll a pair of dice. Here’s a gif for some i
 
 ![Rolling Dice App](src/assets/roll_dice.gif)
 
-#### Step 1: Component Structure
+### Step 1: Component Structure
 
 Make two components:
 
 RollDice - a parent component (rendered by App) that renders the dice and a button to roll.
 Die - an individual die that takes props and displays the correct face of the die based on props.
 
-#### Step 2: Making Dice
+### Step 2: Making Dice
 
 How are we going to render dice?
 
@@ -36,7 +36,7 @@ This gives you access to any FA classes in the JSX.
 
 Your Die.js component would just be an icon that dynamically changes its class to the proper die face based on props from the parent component’s state.
 
-#### Step 3: Rolling Dice
+### Step 3: Rolling Dice
 
 The RollDice component should have:
 
@@ -50,9 +50,7 @@ Remember that these values will have to be translated into fas fa-dice-one throu
 
 Do you have to store each class name in the array or can you programmatically decide which one the Die components should have?
 
-Further Study
-Animation
-The solution displays an animation every time the dice are rolled.
+Animate the rolling of the dice.
 
 A new piece of state is necessary to say whether the dice are currently rolling or not.
 
